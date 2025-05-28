@@ -1,0 +1,2 @@
+# HotChocolateDictionaryBugReproduction
+Quick bug reproduction

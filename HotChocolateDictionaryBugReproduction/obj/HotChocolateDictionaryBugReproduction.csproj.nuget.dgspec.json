@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/thomastvedt/projects/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction.csproj": {}
+  },
+  "projects": {
+    "/Users/thomastvedt/projects/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/thomastvedt/projects/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction.csproj",
+        "projectName": "HotChocolateDictionaryBugReproduction",
+        "projectPath": "/Users/thomastvedt/projects/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction.csproj",
+        "packagesPath": "/Users/thomastvedt/.nuget/packages/",
+        "outputPath": "/Users/thomastvedt/projects/HotChocolateDictionaryBugReproduction/HotChocolateDictionaryBugReproduction/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/thomastvedt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vendanor/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ChilliCream.Nitro": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.AspNetCore.CommandLine": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.Diagnostics": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "HotChocolate.Types.Scalars": {
+              "target": "Package",
+              "version": "[15.1.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Linq.Async.Queryable": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 using HotChocolate.Language;
 using HotChocolateDictionaryBugReproduction.Domain;
 
-namespace HotChocolateDictionaryBugReproduction.GraphQL.Common.Machines;
+namespace HotChocolateDictionaryBugReproduction.GraphQL.Machines;
 
 [ExtendObjectType(OperationType.Query)]
 public class MachineQuery

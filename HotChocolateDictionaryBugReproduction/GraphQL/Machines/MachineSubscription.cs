@@ -2,7 +2,7 @@ using System.Runtime.CompilerServices;
 using HotChocolate.Language;
 using HotChocolateDictionaryBugReproduction.Domain;
 
-namespace HotChocolateDictionaryBugReproduction.GraphQL.Common.Machines;
+namespace HotChocolateDictionaryBugReproduction.GraphQL.Machines;
 
 [ExtendObjectType(OperationType.Subscription)]
 public class MachineSubscription

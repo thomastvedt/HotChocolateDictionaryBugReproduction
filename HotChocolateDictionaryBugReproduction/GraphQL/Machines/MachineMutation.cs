@@ -2,7 +2,7 @@ using HotChocolate.Language;
 using HotChocolate.Resolvers;
 using HotChocolateDictionaryBugReproduction.Domain;
 
-namespace HotChocolateDictionaryBugReproduction.GraphQL.Common.Machines;
+namespace HotChocolateDictionaryBugReproduction.GraphQL.Machines;
 
 [ExtendObjectType(OperationType.Mutation)]
 public class MachineMutation

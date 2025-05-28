@@ -22,13 +22,13 @@ public class MachineMutation
 
     // BUG: This adds "Task" to the schema in HC v15.1.4, but not in HC v15.1.3
     [UseMutationConvention]
-    public async Task DeleteMachineImage(
+    public async Task<Machine> DeleteMachineImage(
         Guid machineId,
         IMachineService machineService,
         IResolverContext context
     )
     {
-        var machine = await machineService.GetMachine(machineId);
         await machineService.DeleteImage(machineId);
+        return await machineService.GetMachine(machineId);
     }
 }
